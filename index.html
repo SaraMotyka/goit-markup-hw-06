@@ -97,6 +97,43 @@
                     </button>
                     <div class="backdrop is-hidden" data-modal>
                         <div class="modal-window">
+                            <h2 class="modalFormHeader">
+                                Zostaw swoje dane w formularzu poniżej
+                            </h2>
+                            <form class="modalForm">
+                                <label class="form-items"
+                                    ><p class="input-describe">Imię</p>
+                                    <input
+                                        type="text"
+                                        name="userName"
+                                        class="modal-input"
+                                /></label>
+                                <label class="form-items"
+                                    ><p class="input-describe">Telefon</p>
+                                    <input
+                                        type="tel"
+                                        name="userTel"
+                                        class="modal-input"
+                                /></label>
+                                <label class="form-items"
+                                    ><p class="input-describe">E-mail</p>
+                                    <input
+                                        type="email"
+                                        name="userEmail"
+                                        class="modal-input"
+                                /></label>
+                                <label class="form-items"
+                                    ><p class="input-describe">Komentarz</p>
+                                    <input
+                                        type="text"
+                                        name="comment"
+                                        class="modal-input"
+                                /></label>
+                                <label class="form-items"
+                                    ><p class="input-describe"></p>
+                                    <input
+                                /></label>
+                            </form>
                             <button
                                 type="button"
                                 class="btn-close"
@@ -684,7 +721,6 @@
                 </div>
             </section>
         </main>
-
         <footer class="footer-box">
             <div class="container">
                 <div class="footer-contact">
@@ -789,6 +825,26 @@
                             </li>
                         </ul>
                     </div>
+                    <form name="newsletterForm">
+                        <label
+                            ><h3 class="newsletter-head">
+                                ZAPISZ SIĘ DO NEWSLETTERA
+                            </h3>
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="E-mail"
+                                class="input-area"
+                        /></label>
+                        <button class="btn-footer" type="submit">
+                            <span class="sign-up">Zapisz się</span>
+                            <svg class="icon-send">
+                                <use
+                                    href="./images/icons.svg/symbol-defs (1).svg#icon-icon-send"
+                                ></use>
+                            </svg>
+                        </button>
+                    </form>
                 </div>
             </div>
         </footer>
