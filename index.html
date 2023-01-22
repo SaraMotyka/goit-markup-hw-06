@@ -103,37 +103,81 @@
                             <form class="modalForm">
                                 <label class="form-items"
                                     ><p class="input-describe">Imię</p>
-                                    <input
-                                        type="text"
-                                        name="userName"
-                                        class="modal-input"
-                                /></label>
+                                    <div class="input-container">
+                                        <svg class="modalIcon">
+                                            <use
+                                                href="./images/icons.svg/icons1.svg#icon-person-black-18dp-1"
+                                            ></use>
+                                        </svg>
+                                        <input
+                                            type="text"
+                                            name="userName"
+                                            class="modal-input"
+                                        />
+                                    </div>
+                                </label>
                                 <label class="form-items"
                                     ><p class="input-describe">Telefon</p>
-                                    <input
-                                        type="tel"
-                                        name="userTel"
-                                        class="modal-input"
-                                /></label>
+                                    <div class="input-container">
+                                        <svg class="modalIcon">
+                                            <use
+                                                href="./images/icons.svg/icons1.svg#icon-phone-black-18dp-1"
+                                            ></use>
+                                        </svg>
+                                        <input
+                                            type="tel"
+                                            name="userTel"
+                                            class="modal-input"
+                                        /></div
+                                ></label>
                                 <label class="form-items"
-                                    ><p class="input-describe">E-mail</p>
-                                    <input
-                                        type="email"
-                                        name="userEmail"
-                                        class="modal-input"
-                                /></label>
+                                    ><p class="input-describe">Email</p>
+                                    <div class="input-container">
+                                        <svg class="modalIcon">
+                                            <use
+                                                href="./images/icons.svg/icons1.svg#icon-email-black-18dp-1"
+                                            ></use>
+                                        </svg>
+                                        <input
+                                            type="email"
+                                            name="userEmail"
+                                            class="modal-input"
+                                        /></div
+                                ></label>
                                 <label class="form-items"
                                     ><p class="input-describe">Komentarz</p>
-                                    <input
-                                        type="text"
-                                        name="comment"
-                                        class="modal-input"
-                                /></label>
-                                <label class="form-items"
-                                    ><p class="input-describe"></p>
-                                    <input
-                                /></label>
+                                    <div class="input-container">
+                                        <textarea
+                                            rows="8"
+                                            name="comment"
+                                            class="modal-input2 message"
+                                            placeholder="Wprowadź tekst"
+                                        ></textarea>
+                                    </div>
+                                </label>
+
+                                <div class="statute-container">
+                                    <svg class="modalIconLast">
+                                        <use
+                                            href="./images/icons.svg/icons1.svg#icon-Vector"
+                                        ></use>
+                                    </svg>
+                                    <p class="statute">
+                                        Oświadczam iż akceptuję
+                                        <a href="" class="statute-link"
+                                            >Regulamin</a
+                                        >
+                                        i
+                                        <a href="" class="statute-link"
+                                            >Politykę Prywatności.</a
+                                        >
+                                    </p>
+                                </div>
+                                <button type="submit" class="modalBtnSend">
+                                    <span class="btnText">Wyślij</span>
+                                </button>
                             </form>
+
                             <button
                                 type="button"
                                 class="btn-close"
@@ -840,7 +884,7 @@
                             <span class="sign-up">Zapisz się</span>
                             <svg class="icon-send">
                                 <use
-                                    href="./images/icons.svg/symbol-defs (1).svg#icon-icon-send"
+                                    href="./images/icons.svg/icons1.svg#icon-icon-send"
                                 ></use>
                             </svg>
                         </button>

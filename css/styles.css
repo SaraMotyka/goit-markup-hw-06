@@ -22,6 +22,7 @@ body {
     --currentColor: #afb1b8;
     --cross-color: rgba(0, 0, 0, 0.1);
     --input-color: rgba(255, 255, 255, 0.6);
+    --input-color2: rgba(117, 117, 117, 0.5);
 }
 
 .logo {
@@ -907,12 +908,6 @@ body {
     position: absolute;
     width: 358px;
     height: 50px;
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.2em;
-    letter-spacing: 0.03em;
-    color: var(--input-color);
 }
 .btn-footer {
     position: absolute;
@@ -927,12 +922,7 @@ body {
     display: flex;
     cursor: pointer;
 }
-.icon-send {
-    fill: var(--fourth-color);
-    height: 24px;
-    width: 24px;
-    margin-top: 10px;
-}
+
 .sign-up {
     font-family: "Roboto";
     font-weight: 700;
@@ -971,6 +961,17 @@ body {
     border-radius: 4px;
     width: 448px;
     height: 40px;
+    padding-left: 42px;
+}
+.modal-input2 {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-left: 16px;
+}
+.message {
+    width: 448px;
+    height: 120px;
 }
 .input-describe {
     font-family: "Roboto";
@@ -979,4 +980,94 @@ body {
     line-height: 1.16em;
     letter-spacing: 0.01em;
     color: var(--third-color);
+}
+textarea {
+    resize: none;
+}
+.modalIcon {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin-top: 11px;
+    margin-left: 12px;
+}
+
+.icon-send {
+    fill: var(--fourth-color);
+    height: 24px;
+    width: 24px;
+    margin-top: 10px;
+}
+.statute-container {
+    margin-top: 20px;
+    margin-left: 54px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.modalIconLast {
+    width: 16px;
+    height: 15px;
+    border: 2px solid var(--seventh-color);
+    background-color: var(--fourth-color);
+    fill: var(--fourth-color);
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.statute {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+    color: var(--third-color);
+}
+.modal-input2::placeholder {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+.input-area::placeholder {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25em;
+    letter-spacing: 0.03em;
+    color: var(--input-color);
+}
+.statute-link {
+    color: var(--first-color);
+}
+.modalBtnSend {
+    width: 200px;
+    height: 50px;
+    background: var(--first-color);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-left: 164px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btnText {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: 0.06em;
+    color: var(--fourth-color);
+}
+.modalIconLast::after {
+    content: "";
+    background-color: var(--first-color);
+    border: none;
 }
